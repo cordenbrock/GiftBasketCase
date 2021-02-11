@@ -11,14 +11,20 @@ function AddProduct(props) {
       recipient: e.target.recipient.value,
       sender: e.target.sender.value,
       message: e.target.message.value,
+      item1: e.target.item1.value,
+      item2: e.target.item2.value,
+      item3: e.target.item3.value,
       id: v4()
     })
+  }
+  const styledForm = {
+
   }
 
   return (
     <>
       <ReusableForm
-        formSubmissionhandler={handleNewProductFormSubmission}
+        formSubmissionHandler={handleNewProductFormSubmission}
         buttonText="Add to Cart"/>
     </>
   );

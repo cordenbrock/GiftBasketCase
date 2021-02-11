@@ -11,6 +11,9 @@ function Product(props){
             <p>{props.recipient}</p>
             <p>{props.sender}</p>
             <p>{props.message}</p>
+            <p>{props.item1}</p>
+            <p>{props.item2}</p>
+            <p>{props.item3}</p>
           </div>
           <hr/>
       </div>

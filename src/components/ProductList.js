@@ -13,6 +13,9 @@ function ProductList(props){
         recipient={product.recipient}
         sender={product.sender}
         message={product.message}
+        item1={product.item1}
+        item2={product.item2}
+        item3={product.item3}
         id={product.id}
         key={product.id}
       />
